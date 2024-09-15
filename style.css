@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(126, 123, 123);
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+h1 {
+  margin-top: 100px;
+}
+.rainbow-container {
+  position: relative;
+  margin-top: 0;
+  top: 0px;
+  width: 600px;
+  height: 600px;
+  /* border: 1px solid black; */
+}
+
+.half-circle {
+  position: absolute;
+
+  width: 600px;
+  height: 300px;
+  border: 20px solid rgb(238, 231, 231);
+  border-top-left-radius: 500px;
+  border-top-right-radius: 500px;
+  border-bottom: 0;
+}
+/* .half-circle:hover{
+    transform:scale(1.5);
+} */
+.color-1 {
+  top: 0%;
+  border-color: red;
+}
+.color-2 {
+  top: 3%;
+  left: 3%;
+  border-color: orange;
+  width: 562px;
+  height: 282px;
+}
+.color-3 {
+  top: 6%;
+  left: 6%;
+  border-color: yellow;
+  width: 525px;
+  height: 264px;
+}
+.color-4 {
+  top: 9.4%;
+  left: 9.2%;
+  width: 487px;
+  height: 244px;
+  border-color: green;
+}
+.color-5 {
+  top: 12.5%;
+  left: 12.5%;
+  width: 449px;
+  height: 225px;
+  border-color: blue;
+}
+.color-6 {
+  top: 15.8%;
+  left: 15.8%;
+  width: 409px;
+  height: 205px;
+  border-color: indigo;
+}
+.color-7 {
+  top: 19%;
+  left: 19%;
+  width: 370px;
+  height: 186px;
+  border-color: violet;
+}
+.btn-wrapper {
+  margin-right: 70px;
+  margin-top:0px;
+}
+.btn {
+  cursor: pointer;
+  margin-left: 70px;
+  padding:20px;
+  font-size: 1.2em;
+}
